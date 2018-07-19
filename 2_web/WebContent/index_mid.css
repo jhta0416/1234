@@ -1,0 +1,38 @@
+@charset "UTF-8";
+#header{
+	background-image: url(./img/back800.png);
+	
+}
+#header, #content, #footer{
+	margin:5px auto;
+	width:800px;
+}
+#content{
+	overflow: hidden;
+	min-height:300px;
+}
+		
+#content > nav, #content > #section{
+	float:left;
+}
+
+#nav{
+	width: 200px;
+	border:1px solid #8888ff;
+	font-size:12px;
+}
+
+#section{
+	width:598px;
+}
+	
+	
+#aside{
+	clear:both;
+	width:800px;
+}
+#aside img {
+	display: inline-block;
+	width:150px;
+	height:140px;
+}

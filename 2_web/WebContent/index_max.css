@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+#header, #content, #footer{
+	margin:5px auto;
+	width:1000px;
+}
+#header{
+	background-image: url(./img/back1000.png);
+	
+}
+#content{
+	overflow: hidden;
+	min-height:300px;
+}
+		
+#content > nav, #content > #section , #content > aside{
+	float:left;
+}
+
+#nav{
+	width: 200px;
+	border:1px solid #8888ff;
+	font-size:12px;
+}
+
+#section{
+	width:638px;
+}
+	
+	
+#aside{
+	width:160px;
+}
+
+#aside img{
+	width:160px;
+	height:140px;
+	border:0;
+	margin-bottom:2px;
+	
+}		

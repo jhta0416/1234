@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+#header, #conent, #footer{
+	margin:5px auto;
+	width:300px;
+	background: #ff00ff;
+}

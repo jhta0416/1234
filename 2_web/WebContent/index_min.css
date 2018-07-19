@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#header{
+	background-image: url(./img/back600.png);
+	
+}
+#header, #content, #footer{
+	margin:5px auto;
+	width:600px;
+}
+
+#nav{
+	border:1px solid #8888ff;
+	font-size:12px;
+}
+
+
+#aside img {
+	display:inline-block;
+	width:144px;
+	height:140px;
+}

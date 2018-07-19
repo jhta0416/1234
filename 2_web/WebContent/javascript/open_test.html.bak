@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <script>
+		var a=100;
+		b=200;
+		alert(fun());
+		alert(fun2());
+
+		function openRtn(){
+			var w = window.open('test.html', 'w', '');
+		}
+		var fun = function(){
+			return 300;
+		}
+		function fun2(){
+			return 400;
+		}
+  </script>
+ </head>
+ <body>
+  <input type='button' value='open' onclick='openRtn()'>
+ </body>
+</html>

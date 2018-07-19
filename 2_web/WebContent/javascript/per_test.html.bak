@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+  <script>
+	function a(){
+		for(i=0; i<9999;i++){}
+	}
+	var st = new Date();
+	for(j=0; j<30000; j++) a();
+	var et = new Date();
+	document.write(et.getMilliseconds() - st.getMilliseconds());
+  </script>
+ </body>
+</html>

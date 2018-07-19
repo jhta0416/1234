@@ -1,0 +1,66 @@
+/* --------------------------------------- 
+   ~800px 인 경우
+   1단
+   ---------------------------------------*/
+@charset "UTF-8";
+
+	/* 초기화 */
+	body{
+		width:600px;
+		margin:0 auto;
+	}
+	
+	/* header -------------------- */
+	#header{
+		height:100px;
+		background-image:url(../img/back600.png);
+		box-shadow: 3px 3px 5px #999999;
+		color:#ffffff; 
+		font-size:30px;
+		font-weight:bold;
+		line-height: 100px;
+		padding-left:30px;
+		box-sizing:border-box;
+		margin-top:6px;
+	}
+	
+	/* wrap -----------------------------*/
+	#wrap{
+		margin-top:8px;
+		overflow: hidden;
+	}
+	#wrap > div {
+		clear:both;
+	}
+	
+	#left{
+		height: 300px;
+		background:#eeeeee;
+	}
+	#content{
+		width:600px;
+		height: 300px;
+		width:600px;
+		padding:7px;
+		box-sizing: border-box;
+	}
+	
+	#aside{
+		margin-top:7px;
+		height:100px;
+		clear:left;
+		background:#eeeeee;
+	}
+	
+	/* footer ----------------------------------*/
+	#footer{
+		border:1px solid #777777;
+		box-shadow: 2px 2px 6px #aaaaaa;
+		height:80px;
+		border-radius: 5px;
+		font-size:20px;
+		line-height: 80px;
+		color:#666666;
+		text-align: center;
+		margin-top:8px;
+	}
