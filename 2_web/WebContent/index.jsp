@@ -67,7 +67,7 @@ if(request.getParameter("aside") != null){
 		<jsp:include page="<%=aside %>"/>
 	</aside>
 </div>
-
+fdasfdsafdasfdsafsdafs
 <footer id='footer'><%@ include file='footer.jsp'%></footer>
 
 </body>
